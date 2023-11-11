@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+  <h1>CSS - Box model</h1>
+
+  <div class="container">
+    <div class="settings">
+      <form>
+        <div class="setting padding-setting">
+          <label for="padding">Padding :</label>
+          <input type="range" id="padding" min="0" max="100" value="0">
+          <span class="value padding-value">0px</span>
+        </div>
+
+        <div class="setting border-setting">
+          <label for="border">Border :</label>
+          <input type="range" id="border" min="0" max="100" value="0">
+          <span class="value border-value">0px</span>
+        </div>
+
+        <div class="setting margin-setting">
+          <label for="margin">Margin :</label>
+          <input type="range" id="margin" min="0" max="100" value="0">
+          <span class="value margin-value">0px</span>
+        </div>
+      </form>
+
+      <img src="./box-model.jpeg" alt="">
+    </div>
+
+    <div class="display">
+      <div class="box box1">content1</div>
+      <div class="box box2">content2</div>
+    </div>
+  </div>
+
+</body>
+
+</html>
